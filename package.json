@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "18.x",
+    "node": "16.x",
     "npm": "7.x"
   },
   "dependencies": {
@@ -38,8 +38,7 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider && next dev",
-    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider && next build && next export",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
