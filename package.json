@@ -1,7 +1,12 @@
 {
+  
   "name": "endless-trivia-fe",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=15.0.0",
+    "npm": "<=5.0.0"
+  },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -29,6 +34,7 @@
     "socket.io-client": "^2.3.0",
     "universal-cookie": "^4.0.4",
     "web-vitals": "^0.2.4"
+    
   },
   "scripts": {
     "start": "react-scripts start",
@@ -54,4 +60,5 @@
       "last 1 safari version"
     ]
   }
+
 }
